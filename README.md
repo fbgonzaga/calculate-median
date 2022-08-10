@@ -41,7 +41,7 @@ To calculate the median of numbers in a distributed system, we could use a simil
 Suppose you have a master node (or are able to use a consensus protocol to elect a master from among the servers).
 
 The master first queries the servers for the size of their sets of data. With this information, the master knows the
-size of each data set (as well as the total).
+size of each data set (as well as the total size).
 
 Each server will execute the Median-of-Medians algorithm and send the result to the master. After this, the master will
 have one median for each server, and it can run (again) the Median-of-Medians locally. By doing this, the master will
