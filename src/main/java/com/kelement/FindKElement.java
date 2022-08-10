@@ -66,7 +66,7 @@ public class FindKElement {
      * @param indexA index of the first element
      * @param indexB index of the second element
      */
-    private static void swap(Integer[] values, int indexA, int indexB) {
+    private void swap(Integer[] values, int indexA, int indexB) {
         if (values[indexA] == values[indexB]) {
             return;
         }
