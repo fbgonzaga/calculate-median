@@ -12,8 +12,8 @@ public class FindKElement {
      * @param values array containing the values
      * @param lower lower limit
      * @param upper upper limit
-     * @param k kth smallest element to ve returned
-     * @return returns the k^th-smallest element of the array (without ordering)
+     * @param k k-th smallest element to be returned
+     * @return returns the k-th smallest element of the array (without ordering)
      */
     private int select(Integer[] values, int lower, int upper, int k) {
         if (k >= 0 && k < upper) {
